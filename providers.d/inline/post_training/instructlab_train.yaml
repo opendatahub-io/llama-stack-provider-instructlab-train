@@ -1,0 +1,7 @@
+adapter:
+  adapter_type: instructlab_train
+  pip_packages: ["instructlab-training"]
+  config_class: llama_stack_provider_instructlab_train.config.InstructLabTrainPostTrainingConfig
+  module: llama_stack_provider_instructlab_train
+api_dependencies: []
+optional_api_dependencies: []

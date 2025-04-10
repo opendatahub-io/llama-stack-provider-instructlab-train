@@ -1,1 +1,1 @@
-# llama-stack-provider-ilab-train
+# llama-stack-provider-instructlab-train

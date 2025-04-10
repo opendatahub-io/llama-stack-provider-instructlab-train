@@ -1,0 +1,10 @@
+version: '2'
+image_name: instructlab-train
+apis:
+- post_training
+providers:
+  post_training:
+  - provider_id: instructlab_train
+    provider_type: inline::instructlab_train
+    config:
+external_providers_dir: ./providers.d
