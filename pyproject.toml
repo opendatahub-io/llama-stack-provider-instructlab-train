@@ -1,0 +1,27 @@
+[project]
+name = "llama-stack-provider-instructlab-train"
+version = "0.1.0"
+description = "Llama Stack Provider for Distributed InstructLab Training"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "llama-stack @ git+https://github.com/astefanutti/llama-stack.git@feat-658-1238",
+    "instructlab-training",
+    "urllib3",
+    "six",
+    "pydantic",
+    "aiohttp",
+    "aiosqlite",
+    "datasets",
+    "fastapi",
+    "httpx",
+    "numpy",
+    "openai",
+    "opentelemetry-exporter-otlp-proto-http",
+    "opentelemetry-sdk",
+    "requests",
+    "uvicorn",
+]
+
+[tool.ruff]
+extend-exclude = ["*.ipynb"]
